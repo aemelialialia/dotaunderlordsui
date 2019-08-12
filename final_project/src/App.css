@@ -1,0 +1,48 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  background: url("/background_1.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App-logo {
+
+}
+
+.App-header {
+    height: 90px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: top;
+    position: relative;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.protopass-button{
+  float: left;
+}
+
+.vault-button{
+  float: right;
+}
+
+.menu {
+  top: 0px;
+  height: 100%;
+  width:15%;
+  z-index: 2;
+  margin-top: -90px;
+}
+
+.secondary-menu {
+  top:0px;
+  height: 4%;
+  width:15%;
+  z-index: 3;
+  margin-top: -67%;
+  float: right;
+  display: flex;
+  justify-content: space-around;
+}

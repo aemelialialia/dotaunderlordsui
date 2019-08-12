@@ -1,0 +1,52 @@
+.Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    min-height: 80vh;
+    width: 100vw;
+    background-size: cover;
+    background-image: url('./flattened-bg_jpg.png');
+    flex: 1 0 auto;
+}
+
+.LeadTitle {
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.SecondTitle {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    text-shadow: rgb(0, 0, 0) 0px 0px 3px;
+}
+
+.Links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.Links>a {
+    background-color: rgb(0, 0, 0, .5);
+    margin: 5px;
+}
+
+.CollageContainer {
+    height: 150px;
+    width: 150px;
+    position: relative;
+    margin: 50px;
+}
+
+.CollageContainer>img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
