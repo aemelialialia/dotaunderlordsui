@@ -1,0 +1,375 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--web-view-ids: Home___1;
+}
+#Home___1 * {
+	margin: 0;
+	padding: 0;
+}
+#Home___1 {
+	position: absolute;
+	box-sizing: border-box;
+	background: #E5E5E5;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(98,96,96,1);
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	--web-view-name: Home – 1;
+	--web-view-id: Home___1;
+	--web-scale-to-fit: true;
+	--web-show-scale-controls: true;
+	--web-enable-deep-linking: true;
+}
+#background_1 {
+	opacity: 0.7;
+	fill: url(#background_1_A2_Rectangle_2_pattern);
+}
+.background_1 {
+	position: absolute;
+	overflow: visible;
+	width: 2059px;
+	height: 1158px;
+	left: -69px;
+	top: -39px;
+}
+#profile {
+	position: absolute;
+	width: 337.438px;
+	height: 608px;
+	left: 1511.562px;
+	top: 235px;
+	overflow: visible;
+}
+#profile_info {
+	fill: rgba(0,0,0,1);
+}
+.profile_info {
+	position: absolute;
+	overflow: visible;
+	width: 337.438px;
+	height: 604.922px;
+	left: 0px;
+	top: 0px;
+}
+#challenge_1 {
+	fill: rgba(115,115,115,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.challenge_1 {
+	position: absolute;
+	overflow: visible;
+	width: 337px;
+	height: 218px;
+	left: 0.438px;
+	top: 164px;
+}
+#challenge_2 {
+	fill: rgba(115,115,115,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.challenge_2 {
+	position: absolute;
+	overflow: visible;
+	width: 337px;
+	height: 218px;
+	left: 0.438px;
+	top: 390px;
+}
+#profile_summary {
+	fill: rgba(0,0,0,1);
+}
+.profile_summary {
+	position: absolute;
+	overflow: visible;
+	width: 515.241px;
+	height: 84px;
+	left: 1300.562px;
+	top: 235px;
+}
+#play {
+	filter: drop-shadow(0px 3px 6px rgba(248, 164, 52, 1));
+	fill: url(#play_A2_Rectangle_8_pattern);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.play {
+	position: absolute;
+	overflow: visible;
+	width: 614.458px;
+	height: 225.531px;
+	left: 661.771px;
+	top: 811.734px;
+	transform: rotate(-3deg);
+	transform-origin: left;
+}
+#profile_icon {
+	fill: url(#profile_icon_A2_Ellipse_2_pattern);
+}
+.profile_icon {
+	position: absolute;
+	overflow: visible;
+	width: 214px;
+	height: 214px;
+	left: 1692px;
+	top: 174px;
+}
+#logo {
+	fill: url(#logo_A2_Rectangle_10_pattern);
+}
+.logo {
+	position: absolute;
+	overflow: visible;
+	width: 291px;
+	height: 140px;
+	left: 1558px;
+	top: 879px;
+}
+#header {
+	position: absolute;
+	width: 1789px;
+	height: 184px;
+	left: 92px;
+	top: -29px;
+	overflow: visible;
+}
+#Ellipse_8 {
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_8 {
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	height: 72px;
+	left: 1541px;
+	top: 56px;
+}
+#Ellipse_9 {
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_9 {
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	height: 72px;
+	left: 1629px;
+	top: 56px;
+}
+#Ellipse_10 {
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_10 {
+	position: absolute;
+	overflow: visible;
+	width: 72px;
+	height: 72px;
+	left: 1717px;
+	top: 56px;
+}
+#header_A2_Group_2 {
+	opacity: 0.59;
+	position: absolute;
+	width: 1496.845px;
+	height: 188px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Ellipse_6 {
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.Ellipse_6 {
+	position: absolute;
+	overflow: visible;
+	width: 105px;
+	height: 105px;
+	left: 0px;
+	top: 58px;
+}
+#button_texture_2 {
+	fill: url(#button_texture_2_A2_Path_2_pattern);
+}
+.button_texture_2 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 0px;
+	left: 260.819px;
+	width: 373.805px;
+	height: 159px;
+}
+#button_texture_2_A2_Path_3 {
+	fill: url(#button_texture_2_A2_Path_4_pattern);
+}
+.button_texture_2_A2_Path_3 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 4px;
+	left: 678.91px;
+	width: 378.767px;
+	height: 159px;
+}
+#button_texture_2_A2_Path_5 {
+	fill: url(#button_texture_2_A2_Path_6_pattern);
+}
+.button_texture_2_A2_Path_5 {
+	transform: matrix(1,0,0,1,0,0);
+	overflow: visible;
+	position: absolute;
+	top: 29px;
+	left: 1089px;
+	width: 407.845px;
+	height: 159px;
+}
+#GAME {
+	position: absolute;
+	left: 796px;
+	top: 61px;
+	overflow: visible;
+	width: 146px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#VAULT {
+	position: absolute;
+	left: 1221px;
+	top: 59px;
+	overflow: visible;
+	width: 154px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#PROTOPASS {
+	position: absolute;
+	left: 305px;
+	top: 59px;
+	overflow: visible;
+	width: 284px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 50px;
+	color: rgba(255,255,255,1);
+}
+#progress_bar {
+	position: absolute;
+	width: 289px;
+	height: 12px;
+	left: 1320px;
+	top: 275px;
+	overflow: visible;
+}
+#progress_full {
+	fill: rgba(255,255,255,1);
+	stroke: rgb(112, 112, 112);
+	stroke-width: 1px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 4;
+	shape-rendering: auto;
+}
+.progress_full {
+	position: absolute;
+	overflow: visible;
+	width: 289px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#progress {
+	fill: rgba(211,132,13,1);
+}
+.progress {
+	position: absolute;
+	overflow: visible;
+	width: 178px;
+	height: 12px;
+	left: 0px;
+	top: 0px;
+}
+#Level_20 {
+	position: absolute;
+	left: 1622px;
+	top: 271px;
+	overflow: visible;
+	width: 59px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 15px;
+	color: rgba(255,255,255,1);
+}
+#PLAY {
+	position: absolute;
+	left: 824.701px;
+	top: 842.183px;
+	transform: rotate(-3deg);
+	transform-origin: left;
+	overflow: visible;
+	width: 265px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Segoe UI;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 100px;
+	color: rgba(255,255,255,1);
+	letter-spacing: 0.88px;
+}
