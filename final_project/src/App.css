@@ -13,7 +13,7 @@
     height: 90px;
     max-width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     vertical-align: top;
     position: relative;
     padding-left: 250px;
@@ -22,27 +22,86 @@
 
 .protopass-button{
   float: left;
+  color: white;
+  background-color: transparent;
+  border-bottom: 77px solid transparent;
+  border-left: 6px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: none;
+	height: 0;
+  line-height: 80px;
+	width: 163px;
+  outline: none;
+  background-image: url("button-texture.jpg") 163px fixed;
+  z-index: 1;
 }
 
 .vault-button{
-  float: right;
+    float: right;
+    color: white;
+    background-color: transparent;
+    border-bottom: 87px solid #555;
+    border-left: 16px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 0px none;
+    height: 0;
+    line-height: 80px;
+    width: 137px;
+    outline: none;
+}
+
+.game-button{
+    color: white;
+    background-color: transparent;
+    border-bottom: 78px solid #555;
+    border-left: 15px solid transparent;
+    border-right: 13px solid transparent;
+    border-top: none;
+    height: 0;
+    line-height: 80px;
+    width: 147px;
+    outline: none;
 }
 
 .menu {
-  top: 0px;
   height: 100%;
   width:15%;
   z-index: 2;
-  margin-top: -90px;
+  margin-top: -70px;
+}
+
+.menu-button{
+  color: lightblue;
 }
 
 .secondary-menu {
-  top:0px;
+  position: relative;
   height: 4%;
-  width:15%;
+  width: 20%;
   z-index: 3;
-  margin-top: -67%;
+  margin-top: -760px;
   float: right;
   display: flex;
   justify-content: space-around;
+}
+
+.feedback-button{
+  height: 30px;
+  width: 30px;
+  color: lightblue;
+  background: none;
+  border-color: none;
+  border-width: none;
+}
+
+.settings-button{
+  width: 40px;
+  height: 40px;
+  color: lightblue;
+}
+
+.exit-button{
+  width: 40px;
+  height: 40px;
+  color: lightblue;
 }
