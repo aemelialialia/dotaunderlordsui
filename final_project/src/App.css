@@ -16,62 +16,49 @@
     justify-content: space-around;
     vertical-align: top;
     position: relative;
-    padding-left: 250px;
+    padding-left: 150px;
     padding-right: 250px;
 }
 
-.protopass-button{
-  float: left;
-  color: white;
-  background-color: transparent;
-  border-bottom: 77px solid transparent;
-  border-left: 6px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: none;
-	height: 0;
-  line-height: 80px;
-	width: 163px;
+.buttons{
+  background: transparent;
   outline: none;
-  background-image: url("button-texture.jpg") 163px fixed;
-  z-index: 1;
+  border: none;
+}
+
+.protopass-button{
+    float: left;
+    background: transparent;
+    margin-top: -46px;
+    height: 142px;
+    z-index: 3;
 }
 
 .vault-button{
     float: right;
-    color: white;
-    background-color: transparent;
-    border-bottom: 87px solid #555;
-    border-left: 16px solid transparent;
-    border-right: 4px solid transparent;
-    border-top: 0px none;
-    height: 0;
-    line-height: 80px;
-    width: 137px;
-    outline: none;
+    background: transparent;
+    margin-top: -46px;
+    height: 142px;
+    z-index: 3;
 }
 
 .game-button{
-    color: white;
-    background-color: transparent;
-    border-bottom: 78px solid #555;
-    border-left: 15px solid transparent;
-    border-right: 13px solid transparent;
-    border-top: none;
-    height: 0;
-    line-height: 80px;
-    width: 147px;
-    outline: none;
+    margin-top: -46px;
+    background: transparent;
+    height: 142px;
+    z-index: 3;
 }
 
 .menu {
   height: 100%;
   width:15%;
   z-index: 2;
-  margin-top: -70px;
+  margin-top: -89px;
 }
 
 .menu-button{
-  color: lightblue;
+  margin-left: 56px;
+  margin-top: 20px;
 }
 
 .secondary-menu {
@@ -79,29 +66,68 @@
   height: 4%;
   width: 20%;
   z-index: 3;
-  margin-top: -760px;
+  margin-top: -777px;
   float: right;
   display: flex;
   justify-content: space-around;
 }
 
 .feedback-button{
-  height: 30px;
-  width: 30px;
-  color: lightblue;
+  height: 20px;
+  width: 20px;
+  color: white;
   background: none;
   border-color: none;
   border-width: none;
 }
 
 .settings-button{
-  width: 40px;
-  height: 40px;
-  color: lightblue;
+  width: 20px;
+  height: 20px;
+  color: white;
 }
 
 .exit-button{
-  width: 40px;
-  height: 40px;
-  color: lightblue;
+  width: 20px;
+  height: 20px;
+  color: white;
+}
+
+.profile{
+  z-index: 2;
+  margin-top: -700px;
+  margin-left: -200px;
+}
+
+.profile-pic{
+  height: 80px;
+  width: 80px;
+  float: right;
+}
+
+.level-progress{
+  color: white;
+  background: darkgrey;
+  height: 20px;
+  width: 100px;
+}
+
+.play-button{
+  float: left;
+  margin-top: 100px;
+  position: absolute;
+  
+}
+
+.season-info {
+    height: 86%;
+    width: 98%;
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -42px;
+    margin-left: 0px;
+    padding-top: 68px;
 }
