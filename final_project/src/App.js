@@ -9,19 +9,27 @@ import Vault from './vault.png';
 import HamburgerMenu from 'react-hamburger-menu';
 import Portrait from './portrait.png';
 import Menu from './Menu.js';
+<<<<<<< HEAD
 import { Modal } from 'antd';
+=======
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
 
 class App extends React.Component {
 
   state = {
+<<<<<<< HEAD
     isOpen: false,
     visible: false
+=======
+    isOpen: false
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
   }
 
   handleClick = () => {
     this.setState({ open: !this.state.open })
   }
 
+<<<<<<< HEAD
   showModal = () => {
     this.setState({
       visible: true,
@@ -42,10 +50,13 @@ class App extends React.Component {
     });
   };
 
+=======
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
   render() {
     // var { isOpen } = this.state;
 
     return (
+<<<<<<< HEAD
 
       <div className="App">
 
@@ -60,6 +71,9 @@ class App extends React.Component {
           <div class="arc"><i class="fas fa-flag"></i></div>
           <div class="arc"><i class="fab fa-codepen"></i></div>
         </div>
+=======
+      <div className="App">
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
         <header className="App-header">
           <button className="buttons">
             <img className="protopass-button" alt="" src={Protopass} />
@@ -75,19 +89,31 @@ class App extends React.Component {
           <div className="menu-button">
             <HamburgerMenu
               isOpen={this.state.isOpen}
+<<<<<<< HEAD
               menuClicked={() => this.setState({ isOpen: !this.state.isOpen })}
+=======
+              menuClicked={() => this.setState({ isOpen : !this.state.isOpen })}
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
               color='white'
               width={30}
               height={20}
             />
           </div>
           {this.state.isOpen && <Menu className="season-info"
+<<<<<<< HEAD
             style={{ height: 30, width: 100 }} />}
         </div>
         <div className="secondary-menu">
           <IoIosFiling className="feedback-button"
             style={{ height: 40, width: 40 }}
             onClick={this.showModal} />
+=======
+          style={{height: 30, width: 100}}/>}
+        </div>
+        <div className="secondary-menu">
+          <IoIosFiling className="feedback-button"
+            style={{ height: 40, width: 40 }} />
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
           <IoIosSettings className="settings-button"
             style={{ height: 40, width: 40 }} />
           <IoIosPower className="exit-button"
@@ -95,6 +121,7 @@ class App extends React.Component {
         </div>
         <div className="profile">
           <img className="profile-pic" alt='' src={Portrait} />
+<<<<<<< HEAD
         </div>
         <button className="play-button">PLAY</button>
         <div>
@@ -106,6 +133,15 @@ class App extends React.Component {
           >
             <p>Feedback Form coming soon...</p>
           </Modal>
+=======
+          <div className="level-progress">
+          Hello
+          </div>
+          <div className="daily-chllenges">
+            Challenge
+          </div>
+          <button className="play-button">PLAY</button>
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
         </div>
       </div>
     )

@@ -112,6 +112,16 @@
   width: 100px;
 }
 
+<<<<<<< HEAD
+=======
+.play-button{
+  float: left;
+  margin-top: 100px;
+  position: absolute;
+  
+}
+
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
 .season-info {
     height: 86%;
     width: 98%;
@@ -123,6 +133,7 @@
     margin-top: -42px;
     margin-left: 0px;
     padding-top: 68px;
+<<<<<<< HEAD
 }
 
 .play-button{
@@ -319,3 +330,6 @@ h1 {
   --color-border: hsl(315deg, 36%, 40%);
   transition-delay: 0s;
 }
+=======
+}
+>>>>>>> 68955f444d71de544aa845f60a8d30ba85899cb6
